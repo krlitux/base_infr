@@ -69,8 +69,8 @@ resource "azurerm_consumption_budget_resource_group" "azure_app" {
   time_grain = "Monthly"
 
   time_period {
-    start_date = "2024-08-01T00:00:00Z"
-    end_date   = "2026-01-01T00:00:00Z"
+    start_date = "2025-08-01T00:00:00Z"
+    end_date   = "2027-01-01T00:00:00Z"
   }
 
   notification {
@@ -79,7 +79,7 @@ resource "azurerm_consumption_budget_resource_group" "azure_app" {
     operator  = "GreaterThan"
 
     contact_emails = [
-      "ext-cgratelli@analytics.pe",
+      "charly.v@gmail.com",
     ]
   }
 }

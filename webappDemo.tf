@@ -8,8 +8,8 @@ module "web_app_dev" {
   tags = {
     project        = "DemoProject"
     appName        = "WEBAPPDEMO"
-    pointOfContact = "iops.carlitos@gmail.com"
-    deploymentDate = "15/01/2024"
+    pointOfContact = "charly.v@gmail.com"
+    deploymentDate = "15/01/2025"
   }
 }
 
@@ -23,8 +23,8 @@ module "web_app_dev01" {
   tags = {
     project        = "DemoProject"
     appName        = "WEBAPPDEMO"
-    pointOfContact = "iops.carlitos@gmail.com"
-    deploymentDate = "23/08/2024"
+    pointOfContact = "charly.v@gmail.com"
+    deploymentDate = "23/08/2025"
   }
 }
 
@@ -38,7 +38,7 @@ module "web_app_qa" {
   tags = {
     project        = "DemoProject"
     appName        = "WEBAPPDEMO"
-    pointOfContact = "iops.carlitos@gmail.com"
-    deploymentDate = "15/01/2024"
+    pointOfContact = "charly.v@gmail.com"
+    deploymentDate = "15/01/2025"
   }
 }
